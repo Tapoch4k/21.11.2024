@@ -1,0 +1,104 @@
+ /* Zadanie 1 */
+ #zadanie1 ul {
+    list-style-position: inside;
+    color: green;
+    text-align: center;
+}
+#zadanie1 ul li::marker {
+    color: blue;
+}
+
+/* Zadanie 2 */
+#zadanie2 ul {
+    list-style-type: square;
+}
+#zadanie2 ol {
+    list-style-type: upper-roman;
+}
+
+/* Zadanie 3 */
+#zadanie3 ul {
+    list-style-image: url('https://via.placeholder.com/20');
+}
+
+/* Zadanie 4 */
+#zadanie4 ol {
+    margin: 30px;
+    padding: 0;
+    list-style-position: inside;
+    text-align: right;
+}
+#zadanie4 ol li {
+    margin-bottom: 10px;
+}
+
+/* Zadanie 5 */
+#zadanie5 ul {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+#zadanie5 ul li {
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Zadanie 6 */
+#zadanie6 ol {
+    color: white;
+    background-color: navy;
+    padding: 10px;
+}
+#zadanie6 ul {
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Zadanie 7 */
+#zadanie7 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+#zadanie7 ul li {
+    background-color: blue;
+    padding: 10px 20px;
+}
+#zadanie7 ul li a {
+    color: white;
+    text-decoration: underline;
+}
+#zadanie7 ul li:hover {
+    background-color: red;
+}
+#zadanie7 ul li a:hover {
+    text-decoration: none;
+}
+
+/* Zadanie 8 */
+#zadanie8 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding: 0;
+    gap: 10px;
+}
+#zadanie8 ul li {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#zadanie8 ul li img {
+    width: 20px;
+    height: 20px;
+}
